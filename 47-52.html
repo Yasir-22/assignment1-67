@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1. Create a signup form and display form data in your web
+    page on submission. -->
+
+    <table>
+     <tr>
+         <td>
+             <p>
+                 Name :
+                 <input type="text" name="" id="name">
+             </p>
+         </td>
+     </tr>
+
+     <tr>
+        <td>
+            <p>
+                Email:
+                <input type="text" name="" id="email">
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <p>
+                Number :
+                <input type="text" name="" id="number">
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>
+                City :
+                <input type="text" name="" id="city">
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>
+                <button type="submit" class="btn btn-primary" onclick="showdetail()" >Submit</button> 
+            </p>
+        </td>
+    </tr>
+    </table>
+    
+<table>
+    <tr>
+        <td>
+            <p id="p1">
+              
+            </p>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p id="p2">
+
+            </p>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p id="p3">
+
+            </p>
+
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p id="p4">
+
+            </p>
+
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+<!-- 2. Suppose in your webpage there is content area in which
+you have entered your item details, but user can only see
+some details on first look. When user clicks on “Read
+more” button, full detail of that particular item will be
+displayed.
+ -->
+
+
+
+<div>
+    <img src="https://www.masteroffisys.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/a/xmaster_anatom_student_chair_1.jpg.pagespeed.ic.d5m4sE23Sp.jpg" width="200px" height="200px" alt="">
+</div>
+<p id="red">
+    This is pakistani made chair price 200 colour is black metal body <button onclick="read()"> Read more</button>
+</p>
+<!-- 
+3. In previous assignment you have created a tabular data
+using javascript. Let’s modify that. Create a form which
+takes student’s details and show each student detail in
+table. Each row of table must contain a delete button and
+an edit button. On click on delete button entire row should
+be deleted. On click on edit button, a hidden form will
+appear with the values of that row. -->
+<h1>Student Detail Form</h1>
+<table>
+<td>
+    <tr>
+       <p>
+           Name
+       </p>
+       <input type="text" id="name1">
+       </p>
+    
+     </tr>
+     <tr>
+        <p>
+            Class
+        </p>
+        <input type="text" id="class1">
+        </p>
+        
+      </tr>
+      <tr>
+        <p>
+            Section
+        </p>
+        <input type="text" id="sec">
+        </p>
+     
+      </tr>
+      <tr>
+        <p>
+        Age
+        </p>
+        <input type="text" id='age1'>
+        </p>
+      
+      </tr>
+      
+      <tr>
+          <button onclick="detail()">
+              Submit
+          </button>
+      </tr>
+</td>
+</table>
+
+
+<table>
+    <td >
+    <tr>
+        <td  id='tr1'></td>
+    </tr>
+    <tr >
+        
+        <td  id='tr2'></td>
+
+        
+    </tr>
+    <tr>
+        <td  id='tr3'></td>
+
+    </tr>
+    <tr >
+        <td  id='tr4'></td>
+
+    </tr>
+
+    </td>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="47-52.js"></script>
+</html>

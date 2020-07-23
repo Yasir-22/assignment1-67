@@ -1,0 +1,18 @@
+var Username;
+var fullName='Yasir moiz';
+var message="Hello World";
+alert(message);
+var stdName="john Doe";
+var stdAge='15';
+var stdCourse='Certified Mobile Application Development';
+alert(stdName);
+alert(stdAge);
+alert(stdCourse);
+var a=("Pizza \npizz\npiz\npi\np" );
+alert(a);  
+var email="example@example.com";
+alert('My email is'+ " "  +email);
+var book = "A smarter way to learn JavaScript";
+alert('I am trying to learn from Book '+ book);
+document.write('Yeah i can write HTMl Content through JS');
+alert('“ ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬ ”');
